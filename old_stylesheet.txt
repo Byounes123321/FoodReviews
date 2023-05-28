@@ -1,0 +1,56 @@
+       /* Set up basic styles for the page */
+
+       body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    
+    .grid-item {
+        position: relative;
+        background-image: url(https://receiptify.herokuapp.com/wrinkled-paper-texture-7.jpg);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+    }
+    
+    .date {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 10px;
+        margin-top: 5em;
+        font-size: 12px;
+    }
+    
+    .grid-item h2 {
+        text-align: center;
+        margin-top: 0;
+        font-size: 24px;
+        color: #000000;
+    }
+    
+    .grid-item p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #545454;
+    }
+    
+    .rating {
+        font-size: 24px;
+        color: #FFD700;
+        margin-bottom: 10px;
+    }
+    
+    
